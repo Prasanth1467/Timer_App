@@ -72,7 +72,7 @@ function switchMode(mode, minutes) {
     timeLeft = 25 * 60;
   } else if (mode === "short") {
     shortBreakBtn.classList.add("active-mode");
-    timeLeft = 0.5* 60;
+    timeLeft = 5* 60;
   } else {
     longBreakBtn.classList.add("active-mode");
     timeLeft = 15 * 60;
